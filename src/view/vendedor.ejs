@@ -1,0 +1,131 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/vendedor.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=IM+Fell+English+SC&family=Jacquard+24&family=Mate+SC&family=Nanum+Gothic&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <script async src="/script/vendedorCadastrar.js"></script>
+    <script async src="/script/home.js"></script>
+    
+    
+    <title>Document</title>
+</head>
+<body>
+    <nav class="menu">
+      
+    </nav>
+    
+    <hr>
+
+    <div class="today">
+        <img src="/img/registro.png" alt="">
+        <h1>Register your products here!</h1>
+      </div>
+
+      <form id="form">
+        <div class="container">
+        <div class="separar1">
+            <label for="pnome">Nome do produto *</label>
+            <input type="text" id="name" placeholder="Nome do produto" required/>
+
+            <label for="pmarca">descrição *</label>
+            <input type="text" id="desc" placeholder="Descrição" required/>
+        </div>
+        <div class="separar2">
+            
+            <label for="pvalor">Preço *</label>
+            <br>
+            <input type="number" name="pvalor" id="price" required />
+            <br>
+            
+            <label for="tipo">Categoria *</label>
+            <br>
+
+
+        <select id="type" name="tipo" required>
+        <option value="eletronicos">Eletrônicos</option>
+        <option value="livros">Livros</option>
+        <option value="casa e jardim">Casa e jardim</option>
+        <option value="roupas">Roupas</option>
+        <option value="beleza">Beleza</option>
+        </select>
+<div id="erro">
+                
+        </div>
+        <div class="image-upload-container">
+          
+            <form method="post" enctype="multipart/form-data">
+                <label for="imageUploadInput">Escolha uma imagem:</label>
+                <br><br><br><br>
+                <input type="text" required id="image">
+                <!-- <input type="file" id="imageUploadInput" class="image" name="image"  accept="image/*" required> -->
+                <button type="submit">Enviar</button>
+            </form>
+
+           
+        </div>
+        
+        </div>
+        
+        </div>
+
+        <div id="containerProducts" class="containerProducts">
+
+            <!-- <div class="card1">
+                <img src="/img/1202903.jpg" alt="">
+                <h2>Nome do Produto</h2>
+                <button class="edit-btn">Editar</button>
+                <button class="delete-btn">Deletar</button>
+            </div>
+            <div class="card1">
+                <img src="/img/1202903.jpg" alt="">
+                <h2>Nome do Produto</h2>
+                <button class="edit-btn">Editar</button>
+                <button class="delete-btn">Deletar</button>
+            </div>
+            <div class="card1">
+                <img src="/img/1202903.jpg" alt="">
+                <h2>Nome do Produto</h2>
+                <button class="edit-btn">Editar</button>
+                <button class="delete-btn">Deletar</button>
+            </div>
+            <div class="card1">
+                <img src="/img/1202903.jpg" alt="">
+                <h2>Nome do Produto</h2>
+                <button class="edit-btn">Editar</button>
+                <button class="delete-btn">Deletar</button>
+            </div>
+            <div class="card1">
+                <img src="/img/1202903.jpg" alt="">
+                <h2>Nome do Produto</h2>
+                <button class="edit-btn">Editar</button>
+                <button class="delete-btn">Deletar</button>
+            </div>
+            <div class="card1">
+                <img src="/img/1202903.jpg" alt="">
+                <h2>Nome do Produto</h2>
+                <button class="edit-btn">Editar</button>
+                <button class="delete-btn">Deletar</button>
+            </div>
+            <div class="card1">
+                <img src="/img/1202903.jpg" alt="">
+                <h2>Nome do Produto</h2>
+                <button class="edit-btn">Editar</button>
+                <button class="delete-btn">Deletar</button>
+            </div>
+             -->
+            
+        </div>
+       
+       
+    </form>
+    </div>
+
+    <%- include('partials/footer') %>    
+  
+   </body>
+   </html>

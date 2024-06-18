@@ -1,0 +1,111 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/carrinho.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=IM+Fell+English+SC&family=Jacquard+24&family=Mate+SC&family=Nanum+Gothic&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <script async src="/script/pageCart.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h6 id="texto">Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! </h6>
+    </header>
+    <nav class="menu">
+        <a href="index.html"><h1>Exclusive</h1></a>
+        <ul>
+            <li><a href="/html/index.html">Home</a></li>
+            <li><a href="https://chat.whatsapp.com/L6aeRiY2BTd3GWNkRT33I5">Contact</a></li>
+            <li><a href="#">Sign Up</a></li>
+            <li><a href="/html/vendedorLogin.html">seller's area</a></li>
+        </ul>
+        <div class="search-bar">
+            <input type="text" placeholder="Pesquisar...">
+            <button id="lupa" type="submit"><img src="/img/Component 2.png" alt="Search icon"></button> 
+            <a href="/html/favoritos.html"><button id="carrinho" type="submit"><img src="/img/Design_sem_nome__3_-removebg-preview.png" alt="Search icon"></button></a>
+            <a href="/html/carrinho.html"><button id="carrinho" type="submit"><img src="/img/Design_sem_nome__4_-removebg-preview.png"></button></a> 
+            <div class="dropdown">
+               <div class="user"><a href=""><img src="/img/user.svg" alt=""></a></div>
+                <div class="dropdown-content">
+                    <a href="/html/editarLogin.html">Manage My Account</a>
+                    <a href="/html/carrinho.html">My Order</a>
+                    <a href="/html/index.html">Logout</a>
+                </div>
+            </div>
+  
+    </nav>
+
+    <hr>
+    <div class="body">
+    <div class="topo">
+    </div>
+
+    <div class="container">
+
+        <div class="linhaConteudo">
+                <h1>Product</h1>
+                <h1>Price</h1>
+                <h1>Quantity</h1>
+                <h1>SubTotal</h1>
+        </div>
+
+    </div>
+
+
+<div id="allProducts">
+  
+
+</div>
+ 
+
+   
+
+
+    <div class="meio">
+        <p class="nomeLista"><a href="/html/favoritos.html"></a><button>WishList</button></a>
+            <button class="bag">Update cart</button></p>
+        
+    </div>
+    <br><br><br>
+
+    <div class="ultimo">
+        <div class="cupom">
+            <input type="" placeholder="     Add Coupon">
+            <button type=""> Apply coupon</button>
+        </div>
+
+        
+        <div class="pay">
+            <h1>Total Cart</h1>
+            <br>
+            <h3>SubTotal: <span id="subTotal"></span></h3>
+            <br>
+            <hr>
+
+            <br>
+            <h3>frete: <p class="bag">Gratis</p></h3>
+            <br>
+            <hr>
+
+            <br>
+            <h3>Total: <span id="valorTotal"></span></h3>
+            <br>
+            <hr>
+            <br>
+            <br>
+           <a href="/pagamento  "> <button id="bot"> Proceed to checkout</button></a>
+        </div>
+    </div>
+</div>
+<%- include('partials/footer') %>    
+<script  src="/script/home.js"></script>
+
+
+    
+</body>
+
+</html>

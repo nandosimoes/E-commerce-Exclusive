@@ -1,0 +1,102 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/editarLogin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=IM+Fell+English+SC&family=Jacquard+24&family=Mate+SC&family=Nanum+Gothic&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h6 id="texto">Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! </h6>
+    </header>
+    <nav class="menu">
+      
+    </nav>
+    
+    <hr>
+    
+    <div class="topo">
+        <p class="pagina"><a href="home.html"><span>Home /</span> </a><a href="perfil.html"> My Account</a></p>
+        <p class="paginaD"><a href="home.html"><span>Welcome!</span> </a><a id="nomeUsuario" href="perfil.html"></a></p>
+    </div>
+
+
+    <div class="containerPai">
+
+        <div class="container1">
+            <h1>Manage My Account</h1>
+            <br>
+            <ul>
+                
+                <li id="nomeUsuario">My Profile</li>
+                <br>
+            </ul>
+            <h1>My Orders</h1>
+            <br>
+            <ul>
+                <li><a href="/carrinho">My Cart</a></li>
+            </ul>
+            
+        </div>
+
+        <div class="container2">
+            <main>
+                <section class="profile-edit">
+                    <h1>Edit Your Profile</h1>
+                    <form id="form">
+                        <div class="form-row">
+                            
+                            <div class="form-group_campos">
+                                <br>
+                                <label for="last-name">userName</label>
+                                <br>
+                                <input type="text" id="userName" value="" >
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group_campos">
+                                <br>
+                                <label for="email">Email</label>
+                                <br>
+                                <input type="text" id="email" value="" >
+                            </div>
+                            
+                        </div>
+                        <div class="form-group">
+                            <br>
+                            <label for="current-password">Password Changes</label>
+                            <input type="password" id="myPassword" placeholder="Current Password">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" id="newPassWord" placeholder="New Password">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" id="newPassWord2" placeholder="Confirm New Password">
+                        </div>
+                        <div class="form-actions">
+                            <button type="button" class="cancel-button">Cancel</button>
+                            <button  type="submit" class="save-button">Save Changes</button>
+                        </div>
+
+                        <div id="erro">
+                            
+                        </div>
+                    </form>
+                </section>
+            </main>
+        </div>
+    </div>
+
+
+
+    <%- include('partials/footer') %>    
+    <script src="/script/home.js"></script>
+    <script src="/script/editarLogin.js"></script>
+
+   </body>
+   </html>

@@ -1,0 +1,55 @@
+<!-- index.html -->
+<%- include('partials/header') %>
+
+    <div class="today">
+        <img src="/img/registro.png" alt="">
+        <h1>Register your products here!</h1>
+      </div>
+
+      <form method="post" action="/products">
+        <div class="container">
+        <div class="separar1">
+            <label for="pnome">Nome do produto *</label>
+            <input type="text" id="name" name="name" placeholder="Nome do produto" />
+
+            <label for="pmarca">descrição *</label>
+            <input type="text" id="description" name="description" placeholder="Descrição" />
+        </div>
+        <div class="separar2">
+            
+            <label for="pvalor">Preço *</label>
+            <br>
+            <input type="number" name="price" id="pvalor" />
+            <br>
+            
+            <label for="tipo">Categoria *</label>
+            <br>
+        <select id="tipo" name="type">
+            <option value="Produto">Selecione:</option>
+        <option value="Produto">Eletrônicos</option>
+        <option value="Serviço">Livros</option>
+        <option value="Produto">Casa e jardim</option>
+        <option value="Serviço">Roupas</option>
+        <option value="beleza">Beleza</option>
+        </select>
+
+        <div class="image-upload-container">
+          
+            <form method="post" action="/products"  enctype="multipart/form-data">
+                <label for="imageUploadInput">Escolha uma imagem:</label>
+                <br><br><br><br>
+                <input type="file" id="imageUploadInput" name="image" accept="image/*" required>
+                <input type="submit" placeholder="teste">
+                <!-- <button type="submit">Enviar</button> -->
+            </form>
+        </div>
+        </div>
+        </div>
+
+       
+    </form>
+    </div>
+    <%- include('partials/footer') %>    
+    <script src="/script/home.js"></script>
+   </body>
+   </html>

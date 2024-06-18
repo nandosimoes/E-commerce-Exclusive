@@ -1,0 +1,120 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/pagamento.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=IM+Fell+English+SC&family=Jacquard+24&family=Mate+SC&family=Nanum+Gothic&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h6 id="texto">Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! </h6>
+    </header>
+     <nav class="menu">
+        
+    </nav>
+    
+    <hr>
+     
+    <div class="topo">
+    </div>
+
+    <div class="container">
+
+        <div class="formulario">
+            <h1>Billing Details</h1>    
+            <br><br><br><br>
+            <form action="">
+                <label for="">First Name <span>*</span></label>
+                <br>
+                <input id="form" type="text">
+                <br><br>
+                <label for="">Company Name </label>
+                <br>
+                <input id="form" type="text">
+                <br><br>
+                <label for="">Street Address <span>*</span></label>
+                <br>
+                <input  id="form" type="text">
+                <br><br>
+                <label for="">Apartment, floor, etc, (optional) </label>
+                <br>
+                <input id="form" type="text">
+                <br><br>
+                <label for="">Town/City<span>*</span></label>
+                <br>
+                <input id="form" type="text">
+                <br><br>
+                <label for="">Phone Number <span>*</span></label>
+                <br>
+                <input id="form" type="text">
+                <br><br>
+                <label for="">Email Address <span>*</span></label>
+                <br>
+                <input id="form" type="text">
+                <br><br>
+
+            </form>
+            <input class="check" type="checkbox" name="" ><span id="span">Save this information for faster check-out next time</span>
+        </div>
+
+
+
+        <div class="methodPay" id="methodPay">
+            <div id="containerPay">
+
+            </div>
+            <br>
+
+                <br>
+                <div class="pay">
+                    <h3>SubTotal: <span id="subTotal"></span></h3>
+                    <br>
+                    <hr>
+        
+                    <br>
+                    <h3>Shipping: <p class="bag">Free</p></h3>
+                    <br>
+                    <hr>
+        
+                    <br>
+                    <h3>Total: <span id="valorTotal"></span></h3>
+                    <br>
+                    <br>
+                    <br>
+                            <p class="bag"><img src="/public/img/logosCartao.svg" alt=""></p>
+                            
+                            <div class="form-group">
+                            <input class="radio" name="theradio" id="radio1" type='radio' checked />
+                            <label for="radio1">Bank</label> 
+                            </div>
+
+                            <div class="form-group">
+                            <input class="radio" name="theradio" id="radio2" type='radio' />
+                            <label for="radio2">Cash on delivery</label>
+                            </div>
+                            <br>
+                            <div class="ultimo">
+                                <div class="cupom">
+                                    <input type="" placeholder="Coupon Code">
+
+                                    <div class="botoes">
+                                    <button class="bag" type="">Apply Coupon</button>
+                                    <button id="space" type="">Place Order</button>
+                                </div>
+                                </div>
+        </div>
+
+    </div>
+</div>
+</div>
+<%- include('partials/footer') %>    
+
+<script src="/script/home.js"></script>
+<script src="/script/pagamento.js"></script>
+</body>
+</html>

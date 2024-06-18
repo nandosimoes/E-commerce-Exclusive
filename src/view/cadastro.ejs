@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/cadastro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=IM+Fell+English+SC&family=Jacquard+24&family=Mate+SC&family=Nanum+Gothic&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h6 id="texto">Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! </h6>
+    </header>
+    
+    <nav class="menu">
+       
+    </nav>
+    
+    <hr>
+
+    <div class="container">
+        <div id="contaImg">
+            <img src="/img/Side Image.svg" alt="">
+        </div>
+
+        <div class="conta">
+            <h1>Create an account</h1>
+            <h3>Enter your details below</h3>
+            <br>
+            <ul>
+                <form id="form" >
+
+                    <input type="text" id="userName" placeholder="Name" name="userName" required minlength="4">
+                    <img src="/img/Frame 755 (1).svg" alt="">
+
+                    <br>
+                    <br>
+
+                    <input type="email" id="email" name="email" placeholder="Email or Phone Number" required minlength="3" maxlength="50">
+                    <img src="/img/Frame 755 (1).svg" alt="">
+
+                    <br>
+                    <br>
+
+                    <input type="password" id="password" placeholder="Password" name="password" required minlength="8">
+                    <img src="/img/Frame 755 (1).svg" alt="">
+
+                    <br>
+                    <br>
+
+                    <!-- <button id="criar"><a href="index.html">Create account</a></button> -->
+
+                    <button id="criar"><input type="submit"id="criar"></button>
+                    <div id="erro">
+                        
+                    </div>
+                    <br>
+                    <br>
+                    <h3 id="h3">Already have account? <a href="/login">Log in</a></h3>
+                </form>
+            </ul>
+        </div>
+    </div>
+
+    <%- include('partials/footer') %>    
+
+    <script src="/script/home.js"></script>
+    <script src="/script/cadastro.js"></script>
+</body>

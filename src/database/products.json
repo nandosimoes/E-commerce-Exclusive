@@ -1,0 +1,645 @@
+{
+  "nextId": 147,
+  "Products": [
+    {
+      "id": 24,
+      "name": "celular",
+      "price": 1900,
+      "description": "Produto mo",
+      "type": "eletronicos",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_909012-MLA74352948165_022024-O.webp"
+    },
+    {
+      "id": 26,
+      "name": "Alexa",
+      "price": 476,
+      "description": "asdasdsadasdsadasdasdasdasd",
+      "type": "eletronicos",
+      "image": "https://m.media-amazon.com/images/I/71xoR4A6q-L._AC_SY200_.jpg"
+    },
+    {
+      "id": 28,
+      "name": "kit 5 camisas",
+      "price": 210,
+      "description": "asdasdsadasdsadasdasdasdasd",
+      "type": "roupas",
+      "image": "https://m.media-amazon.com/images/I/41vf3Y5RKbL._AC_UL320_.jpg"
+    },
+    {
+      "id": 29,
+      "name": "roupa bebê urso",
+      "price": 79,
+      "description": "asdasdsadasdsadasdasdasdasd",
+      "type": "roupas",
+      "image": "https://m.media-amazon.com/images/I/71Lp6BjqoZL._AC_UL320_.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Varal",
+      "price": 90,
+      "description": "asdasdsadasdsadasdasdasdasd",
+      "type": "casa e jardim",
+      "image": "https://m.media-amazon.com/images/I/519kJ32D8PL._AC_UL320_.jpg"
+    },
+    {
+      "id": 33,
+      "name": "Kit Jardinagem",
+      "price": 43,
+      "description": "asdasdsadasdsadasdasdasdasd",
+      "type": "casa e jardim",
+      "image": "https://m.media-amazon.com/images/I/51-R8OUkoTL._AC_UL320_.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Mouse RedDragon",
+      "price": 98,
+      "description": "asdasdsadasdsadasdasdasdasd",
+      "type": "eletronicos",
+      "image": "https://m.media-amazon.com/images/I/61hDApXhGCL._AC_SY200_.jpg"
+    },
+    {
+      "id": 35,
+      "name": "Comporte-se",
+      "price": 53,
+      "description": "asdasdsadasdsadasdasdasdasd",
+      "type": "livros",
+      "image": "https://m.media-amazon.com/images/I/81YhbWeBPCS._AC_UL320_.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Grandes Civilizações - box ",
+      "price": 41,
+      "description": "asdasdsadasdsadasdasdasdasd",
+      "type": "livros",
+      "image": "https://m.media-amazon.com/images/I/91ljSQ0bKfL._AC_UL320_.jpg"
+    },
+    {
+      "id": 37,
+      "name": "verity",
+      "price": 76,
+      "description": "asdasdsadasdsadasdasdasdasd",
+      "type": "livros",
+      "image": "https://m.media-amazon.com/images/I/9171o6AmnCL._AC_UL320_.jpg"
+    },
+    {
+      "id": 38,
+      "name": "as coisas que você",
+      "price": 35,
+      "description": "asdasdsadasdsadasdasdasdasd",
+      "type": "livros",
+      "image": "https://m.media-amazon.com/images/I/61F6T1at-nL._AC_UL320_.jpg"
+    },
+    {
+      "id": 39,
+      "name": "o pequeno príncipe",
+      "price": 42,
+      "description": "asdasdsadasdsadasdasdasdasd",
+      "type": "livros",
+      "image": "https://m.media-amazon.com/images/I/710Nd+Itq+L._AC_UL320_.jpg"
+    },
+    {
+      "id": 40,
+      "name": "A biblioteca da meia-noite",
+      "price": 53,
+      "description": "asdasdsadasdsadasdasdasdasd",
+      "type": "livros",
+      "image": "https://m.media-amazon.com/images/I/81iqH8dpjuL._AC_UL320_.jpg"
+    },
+    {
+      "id": 41,
+      "name": "Câmera babá",
+      "price": 153,
+      "description": "asdasdsadasdsadasdasdasdasd",
+      "type": "eletronicos",
+      "image": "https://m.media-amazon.com/images/I/61KPV6Wr6sL._AC_UL320_.jpg"
+    },
+    {
+      "id": 42,
+      "name": "luminaria RGB",
+      "price": 108,
+      "description": "asdasdsadasdsadasdasdasdasd",
+      "type": "eletronicos",
+      "image": "https://m.media-amazon.com/images/I/41Ltg8fYR5L._AC_UL320_.jpg"
+    },
+    {
+      "id": 43,
+      "name": "Cofre Digital",
+      "price": 238,
+      "description": "asdasdsadasdsadasdasdasdasd",
+      "type": "eletronicos",
+      "image": "https://m.media-amazon.com/images/I/41I0PKj2mrL._AC_UL320_.jpg"
+    },
+    {
+      "id": 44,
+      "name": "Régua de Tomada",
+      "price": 87,
+      "description": "asdasdsadasdsadasdasdasdasd",
+      "type": "eletronicos",
+      "image": "https://m.media-amazon.com/images/I/514UiwyoBQL._AC_UL320_.jpg"
+    },
+    {
+      "id": 45,
+      "name": "Touca Vermelha",
+      "price": 35,
+      "description": "asdasdsadasdsadasdasdasdasd",
+      "type": "roupas",
+      "image": "https://m.media-amazon.com/images/I/61vEOYdnl5L._AC_UL320_.jpg"
+    },
+    {
+      "id": 46,
+      "name": "Tênius Vans",
+      "price": 389,
+      "description": "asdasdsadasdsadasdasdasdasd",
+      "type": "roupas",
+      "image": "https://m.media-amazon.com/images/I/71rz8m5QbHL._AC_UL320_.jpg"
+    },
+    {
+      "id": 47,
+      "name": "Camisa estampada",
+      "price": 89,
+      "description": "asdasdsadasdsadasdasdasdasd",
+      "type": "roupas",
+      "image": "https://m.media-amazon.com/images/I/61DNrhVrnSL._AC_UL320_.jpg"
+    },
+    {
+      "id": 48,
+      "name": "shorts Azul",
+      "price": 63,
+      "description": "asdasdsadasdsadasdasdasdasd",
+      "type": "roupas",
+      "image": "https://m.media-amazon.com/images/I/51uHrrWxbaL._AC_UL320_.jpg"
+    },
+    {
+      "id": 50,
+      "name": "livro",
+      "price": 63.99,
+      "description": "asdasdsadasdsadasdasdasdasd",
+      "type": "beleza",
+      "image": "https://m.media-amazon.com/images/I/51uHrrWxbaL._AC_UL320_.jpg"
+    },
+    {
+      "id": 51,
+      "name": "Camisa do SP",
+      "price": 299.99,
+      "description": "BLUSA DO SP",
+      "type": "roupas",
+      "image": "https://static.netshoes.com.br/produtos/camisa-sao-paulo-i-2425-sn-torcedor-new-balance-masculina/24/39U-9320-024/39U-9320-024_zoom1.jpg"
+    },
+    {
+      "id": 59,
+      "name": "Lipmix Batom líquido + Lápis Labial",
+      "price": 54.9,
+      "description": "Batom líquido matte de longa duração, com cor intensa e acabamento líquido aveludado",
+      "type": "beleza",
+      "image": "https://marimaria.vteximg.com.br/arquivos/ids/164520/batom-e-lapis-de-boca-lipmix-hera-mari-maria-makeup.png"
+    },
+    {
+      "id": 60,
+      "name": "Base e Corretivo Matte Velvet Skin - Bege Médio | Mari Maria Makeup",
+      "price": 69.9,
+      "description": "NOVA FÓRMULA e EMBALAGEM MODERNA. A nova Base e Corretivo Velvet Skin combina um acabamento aveludado e proporciona cobertura média à alta, possui longa duração e ajuda a minimizar as imperfeições",
+      "type": "beleza",
+      "image": "https://marimaria.vteximg.com.br/arquivos/ids/164962/Base-e-corretivo-matte-velvet-skin-bege-medio-mari-maria-make-up.png"
+    },
+    {
+      "id": 61,
+      "name": "TÊNIS SKATE OLD SKOOL BLACK WHITE",
+      "price": "449.99",
+      "description": "Vans Skate Old Skool",
+      "type": "roupas",
+      "image": "https://secure-static.vans.com.br/medias/sys_master/vans/vans/h2f/hd6/h00/h00/11375713026078/1002900210004U-01-BASEIMAGE-Hires.jpg"
+    },
+    {
+      "id": 72,
+      "name": "Batom Stick Ginger Glow - Bold | Mari Maria Makeup",
+      "price": 36.9,
+      "description": "O Batom Stick Ginger Glow Mari Maria Makeup possui fórmula com alta pigmentação, cobertura e acabamento matte.",
+      "type": "beleza",
+      "image": "https://marimaria.vteximg.com.br/arquivos/ids/164516/batom-stick-ginger-glow-bold-tampa-laranja-mari-maria-makeup.png"
+    },
+    {
+      "id": 73,
+      "name": "Tênis Skate Old Skool Black",
+      "price": "449.99",
+      "description": "Vans Skate Old Skool",
+      "type": "roupas",
+      "image": "https://secure-static.vans.com.br/medias/sys_master/vans/vans/h2f/hd6/h00/h00/11375713026078/1002900210004U-01-BASEIMAGE-Hires.jpg"
+    },
+    {
+      "id": 74,
+      "name": "Tênis Skate Old Skool Black",
+      "price": "449.99",
+      "description": "Vans Skate Old Skool",
+      "type": "roupas",
+      "image": "https://secure-static.vans.com.br/medias/sys_master/vans/vans/hd9/he6/h00/h00/11375706832926/1002900210005U-01-BASEIMAGE-Hires.jpg"
+    },
+    {
+      "id": 75,
+      "name": "Puffer - Esponja para aplicação de pó",
+      "price": 10,
+      "description": "A Puffer Mari Maria Makeup é o acessório que não vai sair da sua necessaire. Ela entrega a finalização profissional que você deseja.",
+      "type": "beleza",
+      "image": "https://marimaria.vteximg.com.br/arquivos/ids/164706/puffer-esponja-de-aplicacao-detalhes-mari-maria-make-up-frente.png"
+    },
+    {
+      "id": 76,
+      "name": "Paleta de Sombras Ginger Glow - Color Palette | Mari Maria Makeup",
+      "price": 86.9,
+      "description": "Ginger Glow Color Palette Mari Maria Makeup contém 03 tonalidades opacas e 2 cintilantes com alto poder de fixação.",
+      "type": "beleza",
+      "image": "https://marimaria.vteximg.com.br/arquivos/ids/162312/color-palette-ginger-glow-tampa-transparente-sombra-colorida-mari-maria-makeup.png"
+    },
+    {
+      "id": 77,
+      "name": "Tênis skate gilbert crockett black",
+      "price": "579.99",
+      "description": "Vans Skate gilbert",
+      "type": "roupas",
+      "image": "https://secure-static.vans.com.br/medias/sys_master/vans/vans/ha2/h99/h00/h00/11375128870942/1004400050002U-01-BASEIMAGE-Hires.jpg"
+    },
+    {
+      "id": 78,
+      "name": "Tênis old skool platform black true white",
+      "price": "499.99",
+      "description": "Vans old Skool",
+      "type": "roupas",
+      "image": "https://secure-static.vans.com.br/medias/sys_master/vans/vans/hb2/h2a/h00/h00/11646327619614/1002002130018U-01-BASEIMAGE-Hires.jpg"
+    },
+    {
+      "id": 79,
+      "name": "tênis old skool true white",
+      "price": "399.99",
+      "description": "Vans old Skool",
+      "type": "roupas",
+      "image": "https://secure-static.vans.com.br/medias/sys_master/vans/vans/h5e/h37/h00/h00/11319268737054/1002001070010U-01-BASEIMAGE-Hires.jpg"
+    },
+    {
+      "id": 80,
+      "name": "Kit Beleza Autêntica",
+      "price": 182.18,
+      "description": "Este kit contém: Paleta de Iluminadores, Caneta Delineadora, Blush e Iluminador em Stick, Batom Bala Glam Beauty Nude Comfy",
+      "type": "beleza",
+      "image": "https://storage.googleapis.com/b4aprodution.appspot.com/products/166329/original/kit-beleza-autentica-1713193598660-0.png"
+    },
+    {
+      "id": 81,
+      "name": "Lip Tint Tracta Power Tint Caqui 4ml",
+      "price": 19.58,
+      "description": "O Lip Tint Tracta Power Tint 4ml contém Ácido Hialurônico e D- Pantenol, que estimulam a produção de colágeno e deixam os lábios mais hidratados.",
+      "type": "beleza",
+      "image": "https://storage.googleapis.com/b4aprodution.appspot.com/products/165980/original/lip-tint-tracta-power-tint-caqui-4ml-1711109350432-1.png"
+    },
+    {
+      "id": 82,
+      "name": "Paleta De Sombras Luisance Hello World L3160",
+      "price": 36.67,
+      "description": "A Paleta De Sombras Luisance Hello World L3160 tem ótima pigmentação e durabilidade. Com 6 tons de sombras, que variam do rosado ao terroso, para atender a todos os tons de pele.",
+      "type": "beleza",
+      "image": "https://storage.googleapis.com/b4aprodution.appspot.com/products/165708/original/paleta-de-sombras-luisance-hello-world-l3160-1711045101037-0.png"
+    },
+    {
+      "id": 83,
+      "name": "Pó Facial Solto Karen Bachini Rosa Pink Powder",
+      "price": 46.9,
+      "description": "O Pó Facial Solto Karen Bachini Rosa Pink Powder HELLO, CLÃ!! Este é o Pink Powder, o meu pó solto com efeito translúcido… e cor de rosa! Sua textura suave se adapta a todos os tons de pele. ",
+      "type": "beleza",
+      "image": "https://storage.googleapis.com/b4aprodution.appspot.com/products/165876/original/po-facial-solto-karen-bachini-rosa-pink-powder-1709581626835-0.png"
+    },
+    {
+      "id": 84,
+      "name": "Máscara para Cílios Fran by Franciny Ehlke Maravicherry 6g",
+      "price": 44.2,
+      "description": "A Máscara para Cílios Fran by Franciny Ehlke Maravicherry 6g foi desenvolvida para proporcionar os cílios dos sonhos, a máscara MARAVICHERRY fornece extremo volume a cada aplicação.",
+      "type": "beleza",
+      "image": "https://storage.googleapis.com/b4aprodution.appspot.com/products/160365/original/ma-scara-para-ci-lios-fran-by-franciny-ehlke-maravicherry-6g-1709319089817-0.png"
+    },
+    {
+      "id": 85,
+      "name": "KIT 3 Antitranspirantes Desodorantes AD-02",
+      "price": 111,
+      "description": "Kit com 3 unidades do Antitranspirante Desodorante AD-02 com 25% de Mix de Cloridratos de Alumínio, 3% de Trealose e 1% de Pantenol",
+      "type": "beleza",
+      "image": "https://cdn.principiaskin.com/media/catalog/product/cache/a11fc81ad62814be31cd922a993aa5ec/p/r/principia-skincare-cosmeticos-ad-02-kit-3.jpg"
+    },
+    {
+      "id": 86,
+      "name": "Tênis SuperStar",
+      "price": "499.99",
+      "description": "Adidas Originals",
+      "type": "roupas",
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ff2e419f1eda4ebab23faad6009a3a9e_9366/Tenis_Superstar_Branco_EG4958_04_standard.jpg"
+    },
+    {
+      "id": 87,
+      "name": "Gel de Limpeza GL-02 350G",
+      "price": 44,
+      "description": "Gel de limpeza com 11,5% de mix de tensoativos, 10% de glicerina e 1% de PCA sódio, com alta eficácia na melhora da oleosidade, poros dilatados e viço da pele.",
+      "type": "beleza",
+      "image": "https://cdn.principiaskin.com/media/catalog/product/cache/a11fc81ad62814be31cd922a993aa5ec/g/l/gl-02.jpg"
+    },
+    {
+      "id": 88,
+      "name": "Tênis Campus OOS preto",
+      "price": "699.99",
+      "description": "Adidas Originals",
+      "type": "roupas",
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a93a651339a34d269115af500104f641_9366/Tenis_Campus_00s_Preto_HQ8708_04_standard.jpg"
+    },
+    {
+      "id": 89,
+      "name": "Tênis Seely BR",
+      "price": "399.99",
+      "description": "Adidas Originals",
+      "type": "roupas",
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/6ddcbbcbdd0d4e81be606ba34bbbbf7f_9366/SEELEY_BR_Preto_IH5183_04_standard.jpg"
+    },
+    {
+      "id": 90,
+      "name": "protetor solar bastão fps 60 muito resistente",
+      "price": 74.9,
+      "description": "protetor solar facial muito resistente à água e ao suor, ideal para uso diário e para a prática de esportes. seu formato em bastão facilita a aplicação.",
+      "type": "beleza",
+      "image": "https://www.sallve.com.br/cdn/shop/files/MG_2918.jpg"
+    },
+    {
+      "id": 91,
+      "name": "limpador enzimático em pó",
+      "price": 69.9,
+      "description": "limpador em pó que forma uma espuma cremosa para limpar e esfoliar a pele em um só passo, diariamente. renova a pele e reduz cravos em 7 dias",
+      "type": "beleza",
+      "image": "https://www.sallve.com.br/cdn/shop/products/limpador-enzimatico-em-po.png"
+    },
+    {
+      "id": 92,
+      "name": "hidratante antiatrito",
+      "price": 74.9,
+      "description": "hidratante antiatrito é a proteção diária contra assaduras. fórmula em creme, leve e hidratante para mais conforto e movimento no seu dia a dia.",
+      "type": "beleza",
+      "image": "https://www.sallve.com.br/cdn/shop/files/antiatrito-75g_7591dd26-b359-4c59-af60-b63be95cbcf6.png"
+    },
+    {
+      "id": 93,
+      "name": "Tênis Adidas X Hello kitty ",
+      "price": "649.99",
+      "description": "Adidas Originals X hello kitty",
+      "type": "roupas",
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b886921346874ac69d54e2d891b443e0_9366/Tenis_adidas_Originals_x_Hello_Kitty_and_Friends_Forum_Bold_Branco_IF1229_04_standard.jpg"
+    },
+    {
+      "id": 94,
+      "name": "Base Líquida Premium - Wepink Beauty 45ml | Wepink",
+      "price": "99.90",
+      "description": "Base de alta fixação para sua marca.",
+      "type": "beleza",
+      "image": "https://makesbrasil.com/cdn/shop/files/base4.png"
+    },
+    {
+      "id": 96,
+      "name": "Nike x Jacquemus",
+      "price": "1139.99",
+      "description": "Deixe seu jogo de moletom elevado com este queridinho de lã. O design Swoosh completo é cortado a laser para bordas suaves e resistentes ao desgaste. ",
+      "type": "roupas",
+      "image": "https://imgnike-a.akamaihd.net/1920x1920/029307MT.jpg"
+    },
+    {
+      "id": 97,
+      "name": "Camiseta Nike Boxy Valentine's Day Feminina",
+      "price": "189.99",
+      "description": "O amor está no ar ou o amor está no par –  As costuras caídas nos ombros e o corte quadrado proporcionam uma aparência descontraída. ",
+      "type": "roupas",
+      "image": "https://imgnike-a.akamaihd.net/1920x1920/028128MT.jpg"
+    },
+    {
+      "id": 98,
+      "name": "Tênis Gazelle ",
+      "price": "599.99",
+      "description": "Adidas Originals",
+      "type": "roupas",
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8b6ffd7e1f0b4d1dbf0870aa81a68f1a_9366/Tenis_Gazelle_Branco_IF3817_04_standard.jpg"
+    },
+    {
+      "id": 99,
+      "name": "Jaqueta Nike Sportswear Corinthians Masculina",
+      "price": "474.99",
+      "description": "O tecido ventilado com tecnologia Nike Dri-FIT absorve o suor da sua pele e proporciona uma evaporação mais rápida para manter seu corpo seco e confortável.",
+      "type": "roupas",
+      "image": "https://imgnike-a.akamaihd.net/1920x1920/029072ID.jpg"
+    },
+    {
+      "id": 100,
+      "name": "Tênis VL Court 3.0",
+      "price": "399.99",
+      "description": "Adidas Sportwear",
+      "type": "roupas",
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/89fd874a78784a91871a8519c5687783_9366/Tenis_VL_Court_3.0_Verde_ID6284_04_standard.jpg"
+    },
+    {
+      "id": 101,
+      "name": "Camiseta Nike Dri-FIT Sabrina Masculina",
+      "price": "151.99",
+      "description": "Tecnologia Nike Dri-FIT absorve o suor da sua pele para evaporação mais rápida, ajudando a manter você seco e confortável.",
+      "type": "roupas",
+      "image": "https://imgnike-a.akamaihd.net/1920x1920/028146BP.jpg"
+    },
+    {
+      "id": 102,
+      "name": "Air Jordan 4 Retro",
+      "price": "3980.00",
+      "description": "Nike University Blue",
+      "type": "roupas",
+      "image": "https://cdn.awsli.com.br/2500x2500/257/257889/produto/104696389/5cced9cbc8.jpg"
+    },
+    {
+      "id": 103,
+      "name": "Saia Nike Air Woven Feminina",
+      "price": "208.99 ",
+      "description": "Cordão e ilhós no cós permitem que você encontre o ajuste perfeito.",
+      "type": "roupas",
+      "image": "https://imgnike-a.akamaihd.net/1920x1920/025663ID.jpg"
+    },
+    {
+      "id": 117,
+      "name": "Camiseta camisa meme garoto de programa",
+      "price": "28.99 ",
+      "description": "Malha: 100% Algodão, Fio 30.1 - 180gr.Excelente acabamento. Qualidade aprovada por milhares de clientes!",
+      "type": "roupas",
+      "image": "https://montink.s3.amazonaws.com/produto_imagens/157445/phpqE0sUv.png"
+    },
+    {
+      "id": 119,
+      "name": "Camiseta - Eu faço programa",
+      "price": "78.99 ",
+      "description": "Malha: 100% Algodão, Fio 30.1 - 180gr.Excelente acabamento. Qualidade aprovada por milhares de clientes!",
+      "type": "roupas",
+      "image": "https://montink.s3.amazonaws.com/produto_imagens/157445/phpG5nfXx.png"
+    },
+    {
+      "id": 120,
+      "name": "Camiseta - Não formato PC",
+      "price": "78.99 ",
+      "description": "Malha: 100% Algodão, Fio 30.1 - 180gr.Excelente acabamento. Qualidade aprovada por milhares de clientes!",
+      "type": "roupas",
+      "image": "https://montink.s3.amazonaws.com/produto_imagens/157445/phpz56DWF.png"
+    },
+    {
+      "id": 123,
+      "name": "Camiseta Overcome Fruit Salad Azul Marinho",
+      "price": "39.99 ",
+      "description": "Malha: 100% Algodão, Fio 30.1 - 180gr.Excelente acabamento. Qualidade aprovada por milhares de clientes!",
+      "type": "roupas",
+      "image": "https://www.overcome.com.br/cdn/shop/products/26_6b651863-0ecb-4f6e-bfdf-cf1343933d55_900x.jpg"
+    },
+    {
+      "id": 124,
+      "name": "Camiseta Overcome Racing Team II Azul Bebê",
+      "price": "39.99 ",
+      "description": "Malha: 100% Algodão, Fio 30.1 - 180gr.Excelente acabamento. Qualidade aprovada por milhares de clientes!",
+      "type": "roupas",
+      "image": "https://www.overcome.com.br/cdn/shop/products/1_a40e9567-967d-414f-b188-61996d5a16ef_900x.jpg"
+    },
+    {
+      "id": 125,
+      "name": "Oversized Manikomio Colorido",
+      "price": "149.90",
+      "description": "Camiseta Manikomio",
+      "type": "roupas",
+      "image": "https://acdn.mitiendanube.com/stores/002/205/029/products/oversized-preta-56ad315057d20cdedc17168309542830-1024-1024.webp"
+    },
+    {
+      "id": 126,
+      "name": "Oversized Manikomio  Colorido",
+      "price": "149.90",
+      "description": "Camiseta Manikomio Branco",
+      "type": "roupas",
+      "image": "https://acdn.mitiendanube.com/stores/002/205/029/products/camiseta-off-white-f43be528574195252d17174460781805-1024-1024.webp"
+    },
+    {
+      "id": 127,
+      "name": "Regata Manikomio Colorido",
+      "price": "89.90",
+      "description": "Camiseta Manikomio Branco",
+      "type": "roupas",
+      "image": "https://acdn.mitiendanube.com/stores/002/205/029/products/regata-off-white-d46f3aaa998fb1ce1917168313163544-1024-1024.webp"
+    },
+    {
+      "id": 128,
+      "name": "Calça Reta Alfaiataria",
+      "price": "139.99 ",
+      "description": "Calça Reta Alfaiataria com Cós Duplo e Elástico na Parte de Trás",
+      "type": "roupas",
+      "image": "https://img.lojasrenner.com.br/item/927326621/large/3.jpg"
+    },
+    {
+      "id": 129,
+      "name": "Regata Manikomio Colorido",
+      "price": "89.90",
+      "description": "Camiseta Manikomio Preta",
+      "type": "roupas",
+      "image": "https://acdn.mitiendanube.com/stores/002/205/029/products/regata-preta-f5217f240789fe8dc017168314153490-1024-1024.webp"
+    },
+    {
+      "id": 130,
+      "name": "Camiseta Manikomio Colorido",
+      "price": "99.90",
+      "description": "Camiseta Manikomio Preta",
+      "type": "roupas",
+      "image": "https://acdn.mitiendanube.com/stores/002/205/029/products/camiseta-preta-basica-frente-0af3d9ea237e6150bd17146564826463-1024-1024.webp"
+    },
+    {
+      "id": 131,
+      "name": "Camiseta Manikomio Colorido",
+      "price": "99.90",
+      "description": "Camiseta Manikomio Branca",
+      "type": "roupas",
+      "image": "https://acdn.mitiendanube.com/stores/002/205/029/products/camiseta-off-basica-frente-5fc3b9939241ac973217146562044233-1024-1024.webp"
+    },
+    {
+      "id": 132,
+      "name": "Calça Anos 90 Em Sarja",
+      "price": "199.99 ",
+      "description": "Calça Anos 90 em Sarja com Bolso Grande Carpinteiro e Detalhe em Botões",
+      "type": "roupas",
+      "image": "https://img.lojasrenner.com.br/item/913849092/large/3.jpg"
+    },
+    {
+      "id": 133,
+      "name": "Meia Manikomio",
+      "price": "39.90",
+      "description": "Meia Cano Médio Manikomio Branca",
+      "type": "roupas",
+      "image": "https://acdn.mitiendanube.com/stores/002/205/029/products/meia-manikomio-branca1-ec84b91f659035787117176162942563-1024-1024.webp"
+    },
+    {
+      "id": 134,
+      "name": "Meia Manikomio",
+      "price": "39.90",
+      "description": "Meia Cano Médio Manikomio Rosa",
+      "type": "roupas",
+      "image": "https://acdn.mitiendanube.com/stores/002/205/029/products/meia-manikomio-rosa1-2c1fae59f1bdc247a217176162844273-1024-1024.webp"
+    },
+    {
+      "id": 135,
+      "name": "Meia Manikomio",
+      "price": "39.90",
+      "description": "Meia Cano Médio Manikomio Preta",
+      "type": "roupas",
+      "image": "https://acdn.mitiendanube.com/stores/002/205/029/products/meia-manikomio-preta1-a07605f366a9341a1517176162974368-1024-1024.webp"
+    },
+    {
+      "id": 136,
+      "name": "Calça Cenoura Texturizada Com Cinto",
+      "price": "134.99 ",
+      "description": "Calça Cenoura Texturizada com Cinto e Cós Elástico",
+      "type": "roupas",
+      "image": "https://img.lojasrenner.com.br/item/799845935/large/4.jpg"
+    },
+    {
+      "id": 138,
+      "name": "É assim que começa",
+      "price": "73.40 ",
+      "description": "Preparem os corações. Lily e Atlas estão de volta na aguardada sequência de É assim que acaba. ",
+      "type": "livros",
+      "image": "https://m.media-amazon.com/images/I/813TDwBsihL._SY466_.jpg"
+    },
+    {
+      "id": 139,
+      "name": "One Piece 3 em 1 Vol. 1",
+      "price": "43.40 ",
+      "description": "Luffy deseja tornar-se um pirata por conta da admiração que sente por Shanks. O garoto acaba consumindo a Gomugomu-no-mi e mais tarde se envolve em uma briga com bandidos ",
+      "type": "livros",
+      "image": "https://m.media-amazon.com/images/I/51zPKHupwGL._SY445_SX342_.jpg"
+    },
+    {
+      "id": 140,
+      "name": "Chainsaw Man Vol. 2",
+      "price": "63.40 ",
+      "description": "Apertar peitos!! Motivado por esse desejo avassalador, Denji encara o Demônio dos Morcegos em uma batalha mortal!! Será que ele conseguirá alcançar seu objetivo no fim?!  ",
+      "type": "livros",
+      "image": "https://m.media-amazon.com/images/I/51sJMCzF6JS._SX342_SY445_.jpg"
+    },
+    {
+      "id": 141,
+      "name": "Demon Slayer - Kimetsu No Yaiba Vol. 4",
+      "price": "45.40 ",
+      "description": "Depois de ter saído da casa do oni que manipulava o tsuzumi, Tanjirou viu Zenitsu sofrer ataques de um rapaz vestindo uma máscara de javali sem revidar. Conseguirá Tanjirou impedi-lo?!  ",
+      "type": "livros",
+      "image": "https://m.media-amazon.com/images/I/51os7jlROQL._SY445_SX342_.jpg"
+    },
+    {
+      "id": 142,
+      "name": "Conjunto Mesa + Cadeira Infantil",
+      "price": "195.40 ",
+      "description": "Conjunto de Mesa e Cadeirinha Infantil da Junges em madeira de reflorestamento (MDF) com pintura atóxica ",
+      "type": "casa e jardim",
+      "image": "https://m.media-amazon.com/images/I/61kQV0G+iLL._AC_SX679_.jpg"
+    },
+    {
+      "id": 144,
+      "name": "Sofá de Canto 5 Lugares ",
+      "price": "1900.00 ",
+      "description": "MODELO: Sofá Canto 5 Lugares Qatar. TECIDO: Suede",
+      "type": "casa e jardim",
+      "image": "https://m.media-amazon.com/images/I/41F81Exi7vL.__AC_SX300_SY300_QL70_ML2_.jpg"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/produtos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=IM+Fell+English+SC&family=Jacquard+24&family=Mate+SC&family=Nanum+Gothic&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h6 id="texto">Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! </h6>
+    </header>
+    <nav class="menu">
+        
+    </nav>
+    
+    <hr>
+    <div class="image"><img src="/img/Seu celular novo é aqui! (2).png" alt=""></div>
+    <br>
+    <hr>
+    <div class="today">
+        <img src="/img/Frame 625 (1).svg" alt="">
+
+      </div>
+
+   
+
+    <div class="dad" id="comics1">
+
+        <% 
+        products.forEach((product)=>{
+         
+            if(product.type === "casa e jardim"){
+                %>
+        
+                <a href="/product/<%=product.id%> ?id=<%=product.id%>">
+                    <div class="hq">
+                        <img src=" <%=product.image%>" alt="1"> 
+                        <h4>
+                            <%= product.name %>
+                
+                        </h4>
+                        
+                        <h2 id="preco">R$<%=product.price%></h2>
+                    </div>
+                </a>
+                <%
+            }
+          
+
+       }) %>
+     
+        </div>
+        <%- include('partials/footer') %>    
+        <script src="/script/home.js"></script>
+</body>
+</html>

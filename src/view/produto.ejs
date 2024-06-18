@@ -1,0 +1,106 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/produto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=IM+Fell+English+SC&family=Jacquard+24&family=Mate+SC&family=Nanum+Gothic&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h6 id="texto">Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! </h6>
+    </header>
+    
+    <nav class="menu">
+        
+    </nav>
+    <hr>
+    <div class="topo">
+    </div>
+
+    <br><br><br><br><br><br><br><br>
+   
+    <div class="container">
+
+        
+        <div class="space"></div>
+        <div class="fotos">
+             
+                
+              
+            <table>
+                <tbody>
+                    <tr>
+                          
+                        <td  rowspan="4"><img id="image" src="<%=produto.image%>" alt=""></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="infos">
+            <br><br><br><br>
+            <br>
+
+            <h1 id="name"><%=produto.name%></h1>
+            <br><br>
+            <h2 id="price">R$ <%=produto.price%></h2>
+            <br><br>
+            <p id="desc"><%=produto.description%></p>
+            <br><p id="li"></p><br><br><br>
+
+            <div class="product">
+                <button class="btn" id="menos">-</button>
+                <span id="valor" class="quantity-display">1</span>
+                <button class="btn" id="mais">+</button>
+
+              <input class="buy" id="addCart" type="button" value="add to cart">
+
+                <br>
+                
+            </div>
+            <br><br>
+         
+            <br><br><br>
+            
+            <div class="avisos">
+                <br>
+                <input id="ima" type="image" src="/img/icon-delivery.svg" width="50px" alt=""> Free Delivery 
+                <br>Free shipping on purchases over $100
+
+              
+            </div>
+            <div class="avisos">
+                <br>
+                <br>
+                <input id="ima" type="image" src="/img/Icon-return.svg" width="50px" alt=""> Return Delivery 
+                <br>Free 30 Days Delivery Returns. 
+            </div>
+            </div>
+        
+            
+                
+            </div>
+            <br><br>
+            <br><br><br>
+            
+            
+            </div>
+        </div>
+    </div>
+    </div><br><br><br><br><br><br><br><br><br><br><br>
+    <br>
+    <div class="topo">
+        <p class="pagina"><img src="/public/img/Frame 923 (1).svg" alt=""></p>
+    </div>
+    
+    
+    <%- include('partials/footer') %>     
+</body>
+<script  async src="/script/home.js"></script>
+<script async src="/script/carrinho.js"></script>
+</html>

@@ -1,0 +1,67 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=IM+Fell+English+SC&family=Jacquard+24&family=Mate+SC&family=Nanum+Gothic&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav class="menu">
+      
+    </nav>
+    
+    <hr>
+
+
+    <div class="containerLogin">
+        <div id="loginImg">
+            <img id="carin" src="/img/Side Image.svg" alt="">
+        </div>
+        <div class="login">
+            <h1>Log in to Exclusive</h1>
+            <br>
+            <h3>Enter your details below</h3>
+            <br>
+            <br>
+            <ul>
+
+                <form id="form">
+                    <br>
+                <input type="email" id="email" name="email" placeholder="Email or Phone Number" required>
+                <img src="/img/Frame 755 (1).svg" alt="">
+<br>
+<br>
+                <br>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+                <img src="/img/Frame 755 (1).svg" alt="">
+                <br>
+                <br>
+                <br>
+                <div class="final">
+                    
+                    <button id="criar" ><input type="submit"id="criar" ></button>
+                    
+                </div>
+                <br>
+                <div id="erro">
+
+                </div>
+            
+               
+                <p class="pFinal">Don't have an account? <span class="spanF"><a class="spanF" href="/cadastro">Register</a></span>
+                </form>
+            </ul>
+    </div>
+    </div>
+
+    <%- include('partials/footer') %>    
+    <script src="/script/login.js"></script>
+    <script src="/script/home.js"></script>
+   </body>
+   </html>

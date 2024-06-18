@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=IM+Fell+English+SC&family=Jacquard+24&family=Mate+SC&family=Nanum+Gothic&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    
+</head>
+<body>
+
+    
+    <header>
+        <h6 id="texto">Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! </h6>
+    </header>
+    
+    <nav class="menu">
+        
+    </nav>
+    
+    <hr>
+    
+    
+
+
+    <div id="sidebar">
+        <ul>
+          <li><a href="/Produtos/Eletronicos">Eletronics</a></li>
+          <br>
+          <li><a href="/Produtos/Livros">Books</a></li>
+          <br>
+          <li><a href="/Produtos/Casa">House & Garden</a></li>
+          <br>
+          <li><a href="/Produtos/Roupas">Clothes</a></li>
+          <br>
+          <li><a href="/Produtos/Beleza">Beauty</a></li>
+        </ul>
+      </div>
+      
+      <img id="line" src="/img/Line 4.svg" alt="">
+
+     <div> <img id="side-img" src="/img/iphone.svg" alt=""></div>
+     <div class="shop1"> <a href="/Produtos/Eletronicos"><h3>Shop Now</h3></a> </div>
+
+
+
+     <div class="today">
+      <img src="/img/Frame 625.svg" alt="">
+      <h1>Flash Sales</h1>
+    </div>
+    
+
+
+<div class="dad" id="comics1">
+
+
+
+
+    <% 
+        let i = 0;
+        products.forEach((product)=>{
+            i++;
+            if(product.id === 32 || product.id === 40 || product.id === 46 ||product.id === 50  || product.id === 30  ){
+
+        %>
+        
+        <a href="/product/<%=product.id%> ?id=<%=product.id%>">
+            <div class="hq">
+                <img src=" <%=product.image%>" alt="1"> 
+                <h4>
+                    <%= product.name %>
+                 
+                </h4>
+                
+                <h2 id="preco">R$349,98</h2>
+            </div>
+        </a>
+        <% }}) %>
+
+    </div>
+
+<div class="botao"><a href="/Produtos"><button id="button">View All Products</button></a></div>
+
+<hr  id="linha">
+
+<div class="today">
+    <img src="/img/Frame 623.svg" alt="">
+    <h1>Browse By Category</h1>
+    
+
+  </div>
+  <div class="dad" id="comics1">
+    
+    <div class="categoria">
+    
+        <a href="/Produtos/Eletronicos"><img id="" src="/img/eletronicos.png" alt="1"></a>
+        
+      
+    </div>
+     
+    <div class="categoria">
+    
+       <a href="/Produtos/Livros"> <img id="" src="/img/books.png" alt="1"></a>
+        
+      
+    </div>
+     
+    <div class="categoria">
+    
+       <a href="/Produtos/Casa"> <img id="" src="/img/casaEjaridm.png" alt="1"></a>
+        
+      
+    </div>
+     
+    <div class="categoria">
+    
+        <a href="/Produtos/Roupas"><img id="" src="/img/roupas.png" alt="1"></a>
+        
+      
+    </div>
+     
+    <div class="categoria">
+    
+       <a href="/Produtos/Beleza"> <img id="" src="/img/beleza.png" alt="1"></a>
+        
+      
+    </div>
+    </div>
+    <hr  id="linha">
+
+    
+
+            <div class="imagem"> <img src="/img/Frame 600.svg" alt=""></div>   
+            <div class="shop11"> <a href="/Produtos/Eletronicos"><h3>Shop Now</h3></a> </div>
+
+            <div class="today">
+                <img src="/img/Frame 619.svg" alt="">
+              
+                
+                <h1>Explore Our Products</h1>
+
+              </div>
+              <div class="dad" id="comics1">
+                <% 
+                let j = 0;
+                products.forEach((product)=>{
+                    j++;
+                    if( j <= 10){
+        
+                %>
+                
+                <a href="/product/<%=product.id%> ?id=<%=product.id%>">
+                    <div class="hq">
+                        <img src=" <%=product.image%>" alt="1"> 
+                        <h4>
+                            <%= product.name %>
+                        </h4>
+                        
+                        <h2 id="preco">R$<%=product.price%></h2>
+                    </div>
+                </a>
+                <% }}) %>
+              
+                    </div>
+                    <div class="botao">
+                        <a href="/Produtos"><button id="button">View All Products</button>
+                        </a></div>
+
+                        <div class="today">
+                            <img src="/img/Frame 619 (1).svg" alt="">
+                          
+                            
+                            <h1>New Arrival</h1>
+
+                            
+            
+                          </div>
+                          <div class="play">
+                            <img src="/img/PLAY5.svg" alt="">
+                        </div>
+
+                        <div class="shop11"> <a href="/Produtos/Eletronicos"><h3>Shop Now</h3></a> </div>
+
+                     <div class="pre"><img src="/img/PréRodapé.svg" alt=""></div> 
+
+                     <%- include('partials/footer') %>    
+
+                     <script  async src="/script/home.js"></script>
+                    </body>
+                    </html>

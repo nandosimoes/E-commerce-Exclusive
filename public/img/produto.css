@@ -1,0 +1,295 @@
+/* STYLE DO TOPO DA PAGINA*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Nanum Gothic", sans-serif;
+}
+
+
+.cabecalho{
+    text-align: center;
+}
+
+.cabecalho h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+.cabecalho a{
+    text-decoration: none;
+    color: white;
+}
+
+#titulo{
+    text-transform: uppercase;
+    font: bolder;
+}
+
+
+
+.topo{
+    display: flex;
+    padding: 120px;
+    font-size: 14px;
+    width: 50%;
+}
+
+.pagina{
+    font-weight: bold;
+    font-size: 19px;
+}
+.pagina a{
+    text-decoration: none;
+    color: black;
+}
+
+span{
+    margin: 5px;
+}
+#home{
+    color: #313131;
+}
+
+/*INICIO DO PRODUTO*/
+
+
+.container{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    align-items: center;
+}
+.space{
+    width:15%;
+}
+.fotos{
+    height: 600px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.infos{
+    height: 700px;
+    width: 600px;
+    align-items: center;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.botoes{
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+
+
+.infos h1{
+    font-size: 32px;
+}
+
+.infos h2{
+    font-size: 27px;
+}
+.infos p{
+    font-size: 15px;
+    font-weight: bold;
+    width: 350px;
+}
+
+#li{
+    border-bottom: 1px black solid;
+}
+
+#mas, #men, #qua{
+    border: 1px gray solid;
+}
+
+#mas, #men{
+    height: 44px;
+    width: 40px;
+    text-align: center;
+    
+}
+#qua{
+    height: 44px;
+    width: 40px;
+    text-align: center;
+}
+#men{
+    background-color: white;
+    color: black;
+}
+
+#mas{
+    color: white;
+    background-color:rgb(228, 63, 63);
+}
+
+#buy{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 44px;
+    width: 165px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color:rgb(228, 63, 63);
+    border: none;
+    border-radius:5px;
+}
+.botoes button{
+    border: none;
+    width: 40px;
+    height: 44px;
+}
+
+#fav{
+    width: 100%;
+    height: 100%;
+}
+.avisos{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    height: 70px;
+    width: 350px;
+    border: 2px black solid;
+    display: flex;
+    font-weight: bold;
+    font-size: 14px;
+}
+#ima{
+    margin-top: 5px;
+    margin-right: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+
+table , td, th {
+	border-collapse: collapse;
+}
+td, th {
+	padding: 3px;
+	width: 30px;
+	height: 25px;
+}
+th {
+	background: #f0e6cc;
+}
+td{
+    padding: 9px;
+}
+
+.even {
+	background: #fbf8f0;
+}
+.odd {
+	background: #fefcf9;
+}
+
+#lf{
+    width: 125px;
+    height: 132px;
+}
+
+#f{
+    height: 600px;
+    width: 510px;
+}
+
+
+
+/*STYLE DO PRODUTO FINAL*/
+
+.container{
+    padding: 110px;
+    width: 100%;
+    height: 300px;
+    text-align: left;
+}
+
+
+
+.card{
+    float: left;
+    width: 30%;
+    height: 300px;
+    font-weight: 700;
+}
+
+.card h3{
+    font-size: 16px;
+}
+
+.card p{
+    text-align: left;
+    color: black;
+    font-size: 16px;
+}
+
+.card img{
+    height: 270px;
+    width: 270px;
+}
+
+#pn{
+    font-size: 17px;
+    color: rgb(228, 63, 63);
+}
+#pd{
+    font-size: 14px;
+    color: #acacac;
+}
+
+.topo img{
+    height: 40px;
+}
+
+
+/*STYLE DO RODA PÉ DA PAGINA*/
+
+.rodape{
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.profileRodaPe{
+    margin-top: 100px;
+    width: 25%;
+    height: 60%;
+    font-size: 12px;
+    margin-left: 30px;
+}
+.profileRodaPe input{
+    background-color: black;
+    color: white;
+    border: 1px white solid;
+    height: 30px;
+}
+.profileRodaPe a{
+    text-decoration: none;
+    color: white;
+}
+
+.rodape img{
+    width: 80%;
+}
+
+#cabo{
+    background-color: black;
+    color: #313131;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+}
