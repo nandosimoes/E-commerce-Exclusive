@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button id="space" type="">Place Order</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+
+        const btnPagamento = document.getElementById("space")
+        btnPagamento.addEventListener("click", () => {
+            Swal.fire({
+                title: "Compra realizada com sucesso!",
+                text: "You clicked the button!",
+                icon: "success"
+            });
+        })
+    </script>
+</body>
+</html>

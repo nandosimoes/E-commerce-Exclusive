@@ -19,16 +19,14 @@ header h6{
 
   text-align: center;
   color: white;
- 
-  
- 
 }
+
 .menu{
 height: 100px;
 }
 
 footer {
-  margin-top: 100px;
+  margin-top: 200px;
   }
   
 
@@ -576,57 +574,62 @@ input[type=desc], desc{
 }
 
 /*Divs*/
-div {
+.container div,.today div,.image-upload-container div,.separar1 div,.separar2 div {
   
   border-radius: 5px;
- margin-left: 100px;
+ margin-left: 50px;
  
   margin-top: 50px; 
   margin-bottom: 50px;
   background-color: rgb(255, 255, 255);
 }
 
-div h1{
+.container,.today.image-upload-container h1{
   font-size: 25px;
   color: #1B4965 ;
   margin-top: 50px;
   padding: 20px;
 }
+.separar1 input {
+margin-left: 0;
+
+}
+.container1 {
+height: 100px;
+}
 
 .container {
   display: flex;
-  width: 100%;
+  width: 90%;
   height: 200px;
-  
+  margin-left: 5%;
+  margin-top: 10px;
 }
 
 .separar1 {
   display: flex;
   flex-direction: column;
   height: 100%;
-  width: 40%;
+  width: 50%;
 }
 .separar2 {
   width: 100%;
-  height: 50%;
+  height: 40%;
 }
 
 .image-upload-container{
-  z-index: 3;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   width: 600px;
-  height: 100%;
-  margin: 0;
+  height: 70px;
+  margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
   padding: 40px;
-  left: 0;
-
+margin-left: 9%;
 }
 .image-upload-container h2 {
   margin-bottom: 20px;
@@ -671,11 +674,13 @@ div h1{
 }
 
 .card1 {
+  text-align: center;
+justify-content: center;
   z-index: 1;
   position: relative;
-  width: 300px; /* Ajuste conforme necessário */
+  width: 300px;
   margin: 20px;
-  margin-top: 200px;
+  margin-top: 150px;
   background-color: transparent;
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -692,11 +697,13 @@ div h1{
   margin-bottom: 20px;
   object-fit: contain;
   width: 100%;
-  height: 70%;
+  height: 60%;
+  padding: 20px;
 }
 
 .card1 button {
-  position: absolute;
+  width: 110px;
+  margin-top: 40px;
   bottom: 10px;
   padding: 10px 15px;
   border: none;
@@ -704,7 +711,19 @@ div h1{
   cursor: pointer;
   font-size: 14px;
   color: white;
+
 }
+
+.dropbtn {
+  background-color: #DB4444;
+
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
 
 .edit-btn {
   background-color: #DB4444;
@@ -724,11 +743,20 @@ div h1{
 text-align: center;
   font-size: 20px;
   font-family: "Nanum Gothic", sans-serif;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
 
 }
 
-
+.price {
+  font-size: 15px;
+  font-weight: bold;
+}
 #erro h1 {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 9%;
   font-size: 24px;
   margin-bottom: 20px;
   color: rgb(228, 63, 63);
@@ -738,4 +766,52 @@ text-align: center;
   object-fit: cover;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+}
+.containerProducts div {
+  max-height: 500px;
+}
+
+
+.dropbtn {
+  background-color: #DB4444;
+
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 100px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #DB4444;
+
 }

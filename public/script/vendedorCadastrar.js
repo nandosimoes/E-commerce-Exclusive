@@ -1,4 +1,11 @@
+
 function cadastrarProduto(){
+
+    if(localStorage.getItem("admin") === "false"){
+        console.log("caiu aqui");
+        window.location.href = ("/vendedor/login")
+    }
+    
     const name = document.getElementById("name")
     const price = document.getElementById("price")
     const desc = document.getElementById("desc")
@@ -28,9 +35,13 @@ function cadastrarProduto(){
         })
 
         json = await response.json()
-
+        console.log(json.msg);
+        if(json.msg === "Produto Cadastrado com sucesso !"){
+           window.location.reload()
+        }
         containerErro.innerHTML = `<h1>${json.erro}</h1>`
         containerErro.innerHTML = `<h1>${json.msg}</h1>`
+         
     })
 }
 
@@ -47,7 +58,7 @@ async function getProduct(){
     json = await response.json()
     console.log(json);
 
-    json.Products.forEach(element => {
+    json.Products.forEach(element => {  
         var cardContainer = document.createElement("div")
         cardContainer.classList.add("card-container")
 
@@ -57,12 +68,14 @@ async function getProduct(){
         card.innerHTML = `
             <img src="${element.image}" alt="">
             <h2>${element.name}</h2>
-            <button class="edit-btn">Editar</button>
+            <h3 class="price">R$${element.price}</h2>
+
             <button class="delete-btn">Deletar</button>
         `
 
         cardContainer.appendChild(card)
         container.appendChild(cardContainer)
+        
     });
 
     const btnEditar = document.getElementsByClassName("edit-btn")

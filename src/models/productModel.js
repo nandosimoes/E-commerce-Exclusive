@@ -77,7 +77,7 @@ class productModel {
 
     static async validarDesc(description) {
         return new Promise((resolve, reject) => {
-            if (!/[a-z]/i.test(description) || description.length < 10 || description.length > 200) {
+            if (!/[a-z]/i.test(description) || description.length < 10 || description.length > 400) {
                 reject({
                     erro: "Erro na validação da descrição",
                     msg: "A descrição deve ter entre 10 e 200 caracteres e conter letras"

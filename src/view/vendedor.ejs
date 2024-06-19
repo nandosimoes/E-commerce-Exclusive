@@ -27,6 +27,8 @@
       </div>
 
       <form id="form">
+
+  
         <div class="container">
         <div class="separar1">
             <label for="pnome">Nome do produto *</label>
@@ -39,7 +41,7 @@
             
             <label for="pvalor">Preço *</label>
             <br>
-            <input type="number" name="pvalor" id="price" required />
+            <input type="number" name="pvalor" id="price" min="0.01" step="0.01" required />
             <br>
             
             <label for="tipo">Categoria *</label>
@@ -53,26 +55,28 @@
         <option value="roupas">Roupas</option>
         <option value="beleza">Beleza</option>
         </select>
-<div id="erro">
-                
+
+
+        
+        </div>
+        
         </div>
         <div class="image-upload-container">
           
-            <form method="post" enctype="multipart/form-data">
-                <label for="imageUploadInput">Escolha uma imagem:</label>
-                <br><br><br><br>
-                <input type="text" required id="image">
-                <!-- <input type="file" id="imageUploadInput" class="image" name="image"  accept="image/*" required> -->
-                <button type="submit">Enviar</button>
-            </form>
+            <label for="imageUploadInput">Digite a URL da Imagem:</label>
+            <br><br><br><br>
+            <input type="text" required id="image">
+            <!-- <input type="file" id="imageUploadInput" class="image" name="image"  accept="image/*" required> -->
+            <button type="submit">Enviar</button>
+    </div>
+    <div id="erro">
+                
+    </div>
 
-           
-        </div>
-        
-        </div>
-        
-        </div>
-
+    <div class="today">
+        <img src="/img/Frame 619.svg" alt="Frame Image">
+        <h1>Explore Your Products</h1>
+    </div>
         <div id="containerProducts" class="containerProducts">
 
             <!-- <div class="card1">

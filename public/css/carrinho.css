@@ -10,15 +10,11 @@
     font-size: 24px;
     width: 50%;
 }
+
 .pagina a{
     text-decoration: none;
     color: black;
 }
-
-footer {
-  margin-top: 200px;
-  }
-  
 
 #home{
     color: #313131;
@@ -87,6 +83,7 @@ footer {
 .image img {
     width: 70px;
     height: 70px;
+    padding: 10px;
 }
 
 .linhaConteudo input{
@@ -134,13 +131,13 @@ footer {
 }
 .pay{
     height: 300px;
-    width: 30%;
+    width: 40%;
+    margin: 0 auto;
     padding: 20px ;
     border: 1px rgb(109, 109, 109) solid;
-    float: right;
     border-radius: 10px;
     box-shadow: 2px 0 5px rgba(0,0,0,0.2);
-    margin-left: 200px;
+    margin-top: 90px; 
 }
 
 .cupom input{
@@ -168,6 +165,7 @@ footer {
     font-size: 20px;
 }
 .pay button{
+  cursor: pointer;
     color: white;
     background-color: rgb(228, 63, 63);
     height: 90px;
@@ -327,7 +325,9 @@ object-fit: cover;
  
   
 }
-
+.bot {
+  cursor: pointer;
+}
 #lupa img{
   margin-bottom: 50px;
 }
@@ -574,13 +574,6 @@ h4{
   transform: translateY(-2px);
 }
 
-.imagem img{
-  margin-top: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-}
 
 .play img{
   margin-top: 100px;
@@ -670,6 +663,7 @@ object-fit: cover;
   margin-top: 10px;
 }
 .remove-product {
+  cursor: pointer;
   padding: 10px;
   width: 216px;
     color: white;
@@ -724,6 +718,8 @@ margin-top: 10px;
 
 .body{
     padding: 120px;
+    padding-top: 50px ;
+
 }
 /* user */
 .user img{
@@ -733,7 +729,8 @@ margin-top: 10px;
   
 }
 .dropbtn {
-  background-color: #4CAF50;
+  background-color: #DB4444;
+
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -770,7 +767,8 @@ margin-top: 10px;
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+  background-color: #DB4444;
+
 }
 
 .container1 {

@@ -8,6 +8,8 @@ function login() {
         e.preventDefault()
 
         if(login.value === "admin" && password.value === "admin"){
+            
+            localStorage.setItem("admin" , true)
             console.log("entrou");
             window.location.href= '/vendedor'
         }

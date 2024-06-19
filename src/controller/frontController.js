@@ -63,21 +63,15 @@ exports.getRegistrarProduto = async (req, res) =>{
 
 exports.getProdutoById = async (req, res) => {
 
-    var produtoE
-    // const url1 = new URL(window.location.href);
-    // const searchParams = url1.searchParams;
-
-    // const id = searchParams.get("id");
-    // console.log("oi",id);
+    const products = await productModel.getProducts()
 
     await productModel.getProductById(req.params.id).then(
-        produto => produtoE = produto
+        produto => products.products = produto
     ).catch(erro => console.log(erro))
 
      
-    console.log("idTESTE",produtoE);
 
-    res.render('produto' , {produto : produtoE})
+    res.render('produto' , {produto : products.products})
 }
 
 
@@ -95,4 +89,8 @@ exports.getPagamento = async (req,res)=> {
 
 exports.getVendedor = async (req, res) => {
     res.render('vendedor')
+}
+
+exports.getSucesso = async (req, res) => {
+    res.render('sucesso')
 }

@@ -76,7 +76,7 @@
   }
   .fotos{
       height: 600px;
-      width: 40%;
+      width: 3000px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -152,6 +152,8 @@
       background-color:rgb(228, 63, 63);
       border: none;
       border-radius:5px;
+      padding: 10px;
+      margin-left: 50px;
   }
 
   .buy:hover {
@@ -182,14 +184,6 @@
       font-size: 14px;
       border-radius: 5px;
       
-  }
-  #ima{
-      
-      margin-top: 5px;
-      margin-right: 5px;
-      height: 50px;
-      width: 50px;
-      object-fit: cover;
   }
 
 
@@ -560,6 +554,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      padding: 20px;
   }
 
   .btn:active {
@@ -629,7 +624,7 @@
       padding: 20px;
       object-fit: contain;
       max-height: 600px; ;
-      /* object-fit: cover; */
+      max-width: 500px;
       margin: 0 auto;
     }
     
@@ -762,7 +757,8 @@
   }
   
 .dropbtn {
-  background-color: #4CAF50;
+  background-color: #DB4444;
+
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -798,7 +794,8 @@
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+  background-color: #DB4444;
+
 }
 
   .search-bar button {
@@ -817,3 +814,634 @@
     
       background-color: black;
     }
+
+    
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .imagem img {
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  .menu h1 {
+    font-size: 25px;
+    margin-left: 30px;
+  }
+  
+  .menu ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .menu li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  
+  .search-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .search-bar input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .dropbtn {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  
+  #carrinho {
+    right: 0;
+    margin: 0;
+    padding: 0;
+    width: 35px;
+    margin-bottom: 15px;
+  }
+  
+  .search-bar button {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  #sidebar {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  #sidebar ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: space-around;
+  }
+  
+  .menu ul {
+  display: none;
+  }
+  #sidebar a {
+    font-size: 14px;
+    padding: 8px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .shop1 h3 {
+    display: none;
+  }
+  .container1 {
+  margin-right: 90px;
+  }
+  .dropdown-content a {
+  font-size: 10px;
+  }
+  dropdown:hover .dropdown-content {
+  display: block;
+  width: 100px;
+  }
+  .today {
+    width: 100%;
+    margin: 0;
+    margin-top: 50px;
+  }
+  
+  .today h1 {
+    display: none;
+  }
+  
+  .h1 {
+    width: 100px;
+  }
+  
+  .rodape {
+    height: 100%;
+  }
+  
+  .dad a {
+    width: 180px;
+    height: max-content;
+  }
+  
+  .tipos {
+    display: flex;
+    margin-top: 40px;
+  }
+  #linha {
+  border: none;
+  height: 0.5px;
+  background-color: #bababa;
+  width: 80%;
+  margin-right: 20px auto;
+  margin-left: 20px auto;
+  border-radius: 5px;
+  margin-top: 40px;
+  }
+  .hq img {
+    height: 140px;
+    width: 140px;
+    margin: 5px;
+    margin-top: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    object-fit: contain;
+  }
+  
+  .hq h4 {
+    width: 140px;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  
+  #preco {
+    font-size: 13px;
+    margin-top: 2px;
+    margin-bottom: 0;
+  }
+  
+  .hq {
+    width: 100%;
+    margin-right: 1%;
+  }
+  
+  .categoria img {
+    margin: 0;
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+    display: block;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  
+  .categoria a {
+    height: 100px;
+    width: max-content;
+  }
+  
+  .shop11 h3 {
+    display: none;
+  }
+  
+  .categoria {
+    padding: 20px;
+    width: 30%;
+    margin-right: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .categoria h3, .categoria p {
+    text-align: center;
+    font-size: 1em; 
+  }
+  
+  .botao {
+    margin: 30px;
+  }
+  
+  #button {
+    width: 50%;
+    padding: 10px;
+    height: auto;
+    font-size: 15px;
+  }
+  
+  .shop1, .shop11 {
+    margin-left: 0;
+  }
+  
+  .shop11 h3 {
+    font-size: 22px;
+  }
+  
+  .pre img {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    margin-top: 20px;
+  }
+  
+  .play img {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .rodape {
+    margin-top: 20px;
+  
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .profileRodaPe {
+    width: 25%;
+    margin-left: 0;
+    margin-top: 50px;
+    height: 100px;
+  }
+  #rodapeCaixa {
+  width: 50px;
+  height: 10px;
+  }
+  .seta img{
+  margin-top: 0;
+  height: 10px;
+  }
+  .profileRodaPe h1 {
+    font-size: 10px;
+  }
+  
+  .profileRodaPe p, .profileRodaPe a {
+    font-size: 6px;
+  }
+  
+  #line {
+    display: none;
+  }
+  
+  .image img {
+    width: 100%;
+  
+  }
+  
+  #side-img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media only screen and (min-width: 601px) and (max-width: 1000px) {
+  
+  #rodapeCaixa {
+  width: 80px;
+  height: 20px;
+  }
+  .seta img{
+  margin-top: 0;
+  height: 15px;
+  }
+  .image img {
+    width: 100%;
+  
+  }
+  
+  .menu h1 {
+    font-size: 35px;
+    margin-left: 50px;
+  }
+  
+  .menu ul {
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .menu li {
+    margin-right: 30px;
+  }
+  
+  .search-bar {
+    flex-direction: row;
+  }
+  
+  .search-bar input[type="text"] {
+    width: 70%;
+    margin-bottom: 0;
+  }
+  .dropbtn {
+  margin-right: 16px;
+  }
+  #carrinho {
+    right: 0;
+    margin: 0;
+    padding: 0;
+    width: 35px;
+    margin-bottom: 15px;
+  }
+  
+  .search-bar button {
+    width: 80px;
+    margin-bottom: 15px;
+  }
+  
+  #sidebar {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  #sidebar ul {
+    display: flex;
+    width: max-content;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  #sidebar li {
+    width: 48%;
+    margin: 1%;
+  }
+  
+  #sidebar a {
+  
+    font-size: 16px;
+    padding: 8px;
+    display: block;
+    width: max-content;
+    text-align: center; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .shop1 h3 {
+    display: none;
+  }
+  
+  .today {
+    width: 100%;
+    margin: 0;
+    margin-top: 50px;
+  }
+  
+  .today h1 {
+    display: none;
+  }
+  
+  .h1 {
+    width: 100px;
+  }
+  
+  .rodape {
+    height: 100%;
+  }
+  
+  .dad a {
+    width: 180px;
+    height: max-content;
+  }
+  
+  .tipos {
+    display: flex;
+  }
+  
+  
+  .hq img {
+    height: 140px;
+    width: 140px;
+    margin: 5px;
+    margin-top: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    object-fit: contain;
+  }
+  
+  .hq h4 {
+    width: 140px;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  
+  #preco {
+    font-size: 13px;
+    margin-top: 2px;
+    margin-bottom: 0;
+  }
+  
+  .hq {
+    width: 100%;
+    margin-right: 1%;
+  }
+  
+  .categoria img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+  }
+  
+  .shop11 h3 {
+    display: none;
+  }
+  
+  .categoria {
+    width: 30%;
+    margin-right: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .categoria h3, .categoria p {
+    text-align: center;
+    font-size: 1em; 
+  }
+  
+  .botao {
+    margin: 30px;
+  }
+  
+  #button {
+    width: 30%;
+    padding: 10px;
+    height: auto;
+    font-size: 15px;
+  }
+  
+  .shop1, .shop11 {
+    margin-left: 0;
+  }
+  
+  .shop11 h3 {
+    font-size: 22px;
+  }
+  
+  .pre img {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+  }
+  
+  .play img {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    
+  }
+  
+  .rodape {
+    padding: 80px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .profileRodaPe {
+    width: 25%;
+    margin-left: 0;
+    margin-top: 50px;
+    height: 200px;
+  }
+  
+  .profileRodaPe h1 {
+    font-size: 20px;
+  }
+  .container {
+    width: 100%;
+    object-fit: contain;
+  }
+  .profileRodaPe p, .profileRodaPe a {
+    font-size: 12px;
+  }
+  
+  #line {
+    display: none;
+  }
+  
+  #side-img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+  } 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media only screen and (min-width: 1001px) and (max-width: 1499px) {
+  #side-img {
+    width: 65%;
+    margin-top: 50px;
+    height: auto;
+    margin-right: 3%;
+    margin-left: 3%;
+  }
+  #sidebar a {
+    width: max-content;
+  }
+  #sidebar {
+    width: 29%;
+    border-right: 1px solid gray ;
+  }
+  .shop1 h3, .shop11 h3 {
+    display: none;
+  }
+  .image img {
+    width: 100%;
+  
+  }
+  #line {
+    display: none;
+  }
+  .imagem img {
+    width: 100%;
+    margin-top: 100px;
+  }
+  .pre img {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+  }
+  
+  .play img {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    
+  }
+  }
+  
+  

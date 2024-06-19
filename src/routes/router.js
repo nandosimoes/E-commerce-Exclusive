@@ -63,3 +63,4 @@ router.get("/conta/editar", frontController.getEditarConta)
 router.get("/pagamento", frontController.getPagamento)
 
 router.get('/vendedor', frontController.getVendedor)
+router.get('/sucesso', frontController.getSucesso)

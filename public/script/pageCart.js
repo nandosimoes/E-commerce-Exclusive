@@ -8,7 +8,15 @@
 //  function ready(){
 
 //  }
-    
+
+    if(localStorage.getItem("estaLogado") === "false"){
+        console.log("caiu aqui");
+        window.location.href = ("/login")
+    }
+
+
+
+
     const user = JSON.parse(localStorage.getItem("user"))
         var container = document.getElementById("allProducts")
 
@@ -98,6 +106,7 @@ for(var i = 0; i < precoProduto.length; i++){
     console.log(productPrice ,"*",quantidade)
     document.getElementsByClassName("precoTotal")[i].innerText= "R$"+productPrice * quantidade
     total += productPrice * quantidade
+
 }
 
 console.log("total" , total);

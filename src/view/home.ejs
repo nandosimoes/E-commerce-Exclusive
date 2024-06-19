@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,187 +7,133 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=IM+Fell+English+SC&family=Jacquard+24&family=Mate+SC&family=Nanum+Gothic&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="shortcut icon" type="imagex/png" href="/public/img/E.png">
     <title>Document</title>
-    
 </head>
 <body>
-
-    
     <header>
-        <h6 id="texto">Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! </h6>
+        <h6 id="texto">Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!</h6>
     </header>
-    
-    <nav class="menu">
-        
-    </nav>
-    
-    <hr>
-    
-    
 
+    <nav class="menu">
+
+        <ul class="menu-items">
+            <li><a href="/">Home</a></li>
+            <li><a href="/Produtos">Products</a></li>
+            <li><a href="/About">About</a></li>
+            <li><a href="/Contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <hr>
 
     <div id="sidebar">
         <ul>
-          <li><a href="/Produtos/Eletronicos">Eletronics</a></li>
-          <br>
-          <li><a href="/Produtos/Livros">Books</a></li>
-          <br>
-          <li><a href="/Produtos/Casa">House & Garden</a></li>
-          <br>
-          <li><a href="/Produtos/Roupas">Clothes</a></li>
-          <br>
-          <li><a href="/Produtos/Beleza">Beauty</a></li>
+            <li><a href="/Produtos/Eletronicos">Eletronics</a></li>
+            <li><a href="/Produtos/Livros">Books</a></li>
+            <li><a href="/Produtos/Casa">House & Garden</a></li>
+            <li><a href="/Produtos/Roupas">Clothes</a></li>
+            <li><a href="/Produtos/Beleza">Beauty</a></li>
         </ul>
-      </div>
-      
-      <img id="line" src="/img/Line 4.svg" alt="">
-
-     <div> <img id="side-img" src="/img/iphone.svg" alt=""></div>
-     <div class="shop1"> <a href="/Produtos/Eletronicos"><h3>Shop Now</h3></a> </div>
-
-
-
-     <div class="today">
-      <img src="/img/Frame 625.svg" alt="">
-      <h1>Flash Sales</h1>
     </div>
-    
 
+    <img id="line" src="/img/Line 4.svg" alt="Line Image">
 
-<div class="dad" id="comics1">
+    <a href="/product/150%20?id=150"><img id="side-img" src="/img/iphone.svg" alt="iPhone Image"></a>
+    <div class="shop1"><a href="/product/150%20?id=150"><h3>Shop Now</h3></a></div>
 
+    <div class="today">
+        <img src="/img/Frame 625.svg" alt="Frame Image">
+        <h1>Flash Sales</h1>
+    </div>
 
-
-
-    <% 
-        let i = 0;
-        products.forEach((product)=>{
-            i++;
-            if(product.id === 32 || product.id === 40 || product.id === 46 ||product.id === 50  || product.id === 30  ){
-
+    <div class="dad" id="comics1">
+        <% 
+            let i = 0;
+            products.forEach((product)=>{
+                i++;
+                if(product.id === 59 || product.id === 40 || product.id === 46 || product.id === 153 || product.id === 60 ){
         %>
-        
-        <a href="/product/<%=product.id%> ?id=<%=product.id%>">
+        <a href="/product/<%=product.id%>?id=<%=product.id%>">
             <div class="hq">
-                <img src=" <%=product.image%>" alt="1"> 
-                <h4>
-                    <%= product.name %>
-                 
-                </h4>
-                
-                <h2 id="preco">R$349,98</h2>
+                <img src="<%=product.image%>" alt="Product Image"> 
+                <h4><%= product.name %></h4>
+                <h2 id="preco">R$ <%= product.price %></h2>
             </div>
         </a>
         <% }}) %>
-
     </div>
 
-<div class="botao"><a href="/Produtos"><button id="button">View All Products</button></a></div>
+    <div class="botao"><a href="/Produtos"><button id="button">View All Products</button></a></div>
 
-<hr  id="linha">
+    <hr id="linha">
 
-<div class="today">
-    <img src="/img/Frame 623.svg" alt="">
-    <h1>Browse By Category</h1>
-    
-
-  </div>
-  <div class="dad" id="comics1">
-    
-    <div class="categoria">
-    
-        <a href="/Produtos/Eletronicos"><img id="" src="/img/eletronicos.png" alt="1"></a>
-        
-      
+    <div class="today">
+        <img src="/img/Frame 623.svg" alt="Frame Image">
+        <h1>Browse By Category</h1>
     </div>
-     
-    <div class="categoria">
-    
-       <a href="/Produtos/Livros"> <img id="" src="/img/books.png" alt="1"></a>
-        
-      
+    <div class="dad tipos" id="comics1">
+        <div class="categoria">
+            <a href="/Produtos/Eletronicos"><img src="/img/eletronicos.png" alt="Eletronics"></a>
+        </div>
+        <div class="categoria">
+            <a href="/Produtos/Livros"><img src="/img/books.png" alt="Books"></a>
+        </div>
+        <div class="categoria">
+            <a href="/Produtos/Casa"><img src="/img/casaEjaridm.png" alt="House & Garden"></a>
+        </div>
+        <div class="categoria">
+            <a href="/Produtos/Roupas"><img src="/img/roupas.png" alt="Clothes"></a>
+        </div>
+        <div class="categoria">
+            <a href="/Produtos/Beleza"><img src="/img/beleza.png" alt="Beauty"></a>
+        </div>
     </div>
-     
-    <div class="categoria">
-    
-       <a href="/Produtos/Casa"> <img id="" src="/img/casaEjaridm.png" alt="1"></a>
-        
-      
+    <hr id="linha">
+
+    <div class="imagem"><a href="product/151%20?id=151"><img src="/img/Frame 600.svg" alt="Frame Image"></a></div>   
+    <div class="shop11"><a href="product/151%20?id=151"><h3>Shop Now</h3></a></div>
+
+    <div class="today">
+        <img src="/img/Frame 619.svg" alt="Frame Image">
+        <h1>Explore Our Products</h1>
     </div>
-     
-    <div class="categoria">
-    
-        <a href="/Produtos/Roupas"><img id="" src="/img/roupas.png" alt="1"></a>
-        
-      
+    <div class="dad" id="comics1">
+        <% 
+            let j = 0;
+            products.forEach((product)=>{
+                j++;
+                if( j <= 10){
+        %>
+        <a href="/product/<%=product.id%>?id=<%=product.id%>">
+            <div class="hq">
+                <img src="<%=product.image%>" alt="Product Image"> 
+                <h4><%= product.name %></h4>
+                <h2 id="preco">R$<%=product.price%></h2>
+            </div>
+        </a>
+        <% }}) %>
     </div>
-     
-    <div class="categoria">
-    
-       <a href="/Produtos/Beleza"> <img id="" src="/img/beleza.png" alt="1"></a>
-        
-      
+
+    <div class="botao">
+        <a href="/Produtos"><button id="button">View All Products</button></a>
     </div>
+
+    <div class="today">
+        <img src="/img/Frame 619 (1).svg" alt="Frame Image">
+        <h1>New Arrival</h1>
     </div>
-    <hr  id="linha">
+    <div class="play">
+        <img src="/img/PLAY5.svg" alt="Play Image">
+    </div>
 
-    
+    <div class="shop11"><a href="/product/149%20?id=149"><h3>Shop Now</h3></a></div>
 
-            <div class="imagem"> <img src="/img/Frame 600.svg" alt=""></div>   
-            <div class="shop11"> <a href="/Produtos/Eletronicos"><h3>Shop Now</h3></a> </div>
+    <div class="pre"><img src="/img/PréRodapé.svg" alt="Pré Rodapé"></div>
 
-            <div class="today">
-                <img src="/img/Frame 619.svg" alt="">
-              
-                
-                <h1>Explore Our Products</h1>
+    <%- include('partials/footer') %>
 
-              </div>
-              <div class="dad" id="comics1">
-                <% 
-                let j = 0;
-                products.forEach((product)=>{
-                    j++;
-                    if( j <= 10){
-        
-                %>
-                
-                <a href="/product/<%=product.id%> ?id=<%=product.id%>">
-                    <div class="hq">
-                        <img src=" <%=product.image%>" alt="1"> 
-                        <h4>
-                            <%= product.name %>
-                        </h4>
-                        
-                        <h2 id="preco">R$<%=product.price%></h2>
-                    </div>
-                </a>
-                <% }}) %>
-              
-                    </div>
-                    <div class="botao">
-                        <a href="/Produtos"><button id="button">View All Products</button>
-                        </a></div>
-
-                        <div class="today">
-                            <img src="/img/Frame 619 (1).svg" alt="">
-                          
-                            
-                            <h1>New Arrival</h1>
-
-                            
-            
-                          </div>
-                          <div class="play">
-                            <img src="/img/PLAY5.svg" alt="">
-                        </div>
-
-                        <div class="shop11"> <a href="/Produtos/Eletronicos"><h3>Shop Now</h3></a> </div>
-
-                     <div class="pre"><img src="/img/PréRodapé.svg" alt=""></div> 
-
-                     <%- include('partials/footer') %>    
-
-                     <script  async src="/script/home.js"></script>
-                    </body>
-                    </html>
+    <script async src="/script/home.js"></script>
+</body>
+</html>
